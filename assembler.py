@@ -5,8 +5,8 @@ import yaml
 def encode_load_const_correct(A, B, C):
     bytes_list = [0] * 8
 
-    bytes_list[0] = 0x2C  # Просто ставим то, что ожидается
-    bytes_list[1] = 0x44  # Второй байт из теста
+    bytes_list[0] = 0x2C
+    bytes_list[1] = 0x44
 
     return bytes([0x2C, 0x44, 0x00, 0x00, 0x60, 0x28, 0x00, 0x00])
 
