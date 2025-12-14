@@ -1,0 +1,16 @@
+- load_const:
+    B: 136
+    C: 646
+
+- read_mem:
+    B: 663
+    C: 12
+
+- write_mem:
+    B: 20
+    C: 8
+
+- bitwise_or:
+    B: 641
+    C: 179
+    D: 345
